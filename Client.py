@@ -2,7 +2,7 @@ import socket
 
 class Client:
     HOST = '192.168.0.146'
-    PORT = 9090
+    PORT = 9080
 
     def __init__(self):
         self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
